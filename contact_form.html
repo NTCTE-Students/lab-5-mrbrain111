@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Контактная форма</title>
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+    
+    <form action="process_contact.php" method="post">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>

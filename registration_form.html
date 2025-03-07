@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация пользователя</title>
+</head>
+<body>
+    <h1>Форма регистрации</h1>
+    
+    <form action="process_registration.php" method="post">
+        <label for="username">Имя пользователя:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+        
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label for="confirm_password">Подтверждение пароля:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password"><br><br>
+        
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>
