@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование</title>
+</head>
+<body>
+    <h1>Форма бронирования</h1>
+    
+    <form action="process_booking.php" method="post">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="date">Дата бронирования:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+        
+        <label for="time">Время бронирования:</label><br>
+        <input type="time" id="time" name="time"><br><br>
+        
+        <button type="submit">Забронировать</button>
+    </form>
+</body>
+</html>
